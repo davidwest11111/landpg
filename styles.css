@@ -132,6 +132,7 @@ a {
 .icon-gallary-wrapper {
     display: flex;
     align-items: baseline;
+    flex-wrap: wrap;
     gap: clamp(0.75rem, 5vw - 1.25rem, 3rem);
     flex: 1;
 }
@@ -139,7 +140,6 @@ a {
 .icon-card {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     gap: 8px;
     min-width: 70px;
     max-width: 200px;
